@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>inVERTed mOUNTAIn | indie game studios</title>
+	<style>
+		* {box-sizing: border-box; margin: auto; padding: 0; }
+		div {display: flex; justify-content: center; align-items: stretch; align-content: stretch;  }
+		.f-row {flex-direction: row;}
+		.f-col {flex-direction: column;}
+	</style>
+</head>
+<body>
+
+	<div id="wrapper" class="f-row">
+		<div class="f-col" style="">
+			<p><code>inVERTed mOUNTAIn | indie game studios</code></p>
+			<p><code>...coming soon...</code></p>
+			<p><code>Copyright 2020. All rights reserved.</code></p>
+		</div>
+	</div>
+	
+	<script>
+		var w = window.innerWidth
+		var h = window.innerHeight
+		const wrapper = document.querySelector('#wrapper')
+		wrapper.style.width = `${w}px`
+		wrapper.style.height = `${h}px`
+	</script>
+</body>
+</html>
