@@ -6,18 +6,48 @@
 	<title>inVERTed mOUNTAIn | indie game studios</title>
 	<style>
 		* {box-sizing: border-box; margin: auto; padding: 0; }
+		h1 {font-size: 2.2em}
+		h2 {font-size: 1.4em; font-weight: 100; color: #aaa}
 		div {display: flex; justify-content: center; align-items: stretch; align-content: stretch;  }
 		.f-row {flex-direction: row;}
 		.f-col {flex-direction: column;}
+		.p-code {font-family: monospace;}
+		section {padding: 10px 0; text-align: center;}
+		blockquote {
+		  background: #f1f1f1;
+		  border-left: 6px solid #ccc;
+		  margin: 1.5em 10px;
+		  padding: 1em 15px;
+		  quotes: "\201C""\201D""\2018""\2019";
+		}
+		blockquote:before {
+		  color: #aaa;
+		  content: open-quote;
+		  font-size: 3em;
+		  line-height: 0.1em;
+		  margin-right: 0.25em;
+		  vertical-align: -0.4em;
+		}		
+		blockquote:after {
+		  color: #aaa;
+		  content: "!";
+		  font-size: 3em;
+		  line-height: 0.1em;
+		  margin-left: 0.25em;
+		  vertical-align: -0.2em;
+		}
+		blockquote p {display: inline;}
 	</style>
 </head>
 <body>
 
 	<div id="wrapper" class="f-row">
-		<div class="f-col" style="">
-			<p><code>inVERTed mOUNTAIn | indie game studios</code></p>
-			<p><code>...coming soon...</code></p>
-			<p><code>Copyright 2020. All rights reserved.</code></p>
+		<div class="f-col p-code">
+			<section><img src="imgs/logo.png" alt="inVERTed mOUNTAIn poster"></section>
+			<section><h1>inVERTed<br>mOUNTAIn</h1><h2>indie games studio</h2></section>
+			<section><blockquote><p>psyche-delicious games that will rock your unconscious</p></blockquote></section>
+			<section>...<i>newsether</i><br>and<br>www coming soon...</section>
+			<section>Copyright 2020. All rights reserved.</section>
 		</div>
 	</div>
 	
